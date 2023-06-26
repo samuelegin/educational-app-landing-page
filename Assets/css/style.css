@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0rem 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.nav-links {
+  background-color: #3a5aff;
+  /* display: block; */
+  position: fixed;
+  top: -5rem;
+  right: 0;
+  padding: 1rem;
+  transition: 0.4s ease;
+}
+
+.sign-up {
+  background-color: #3a5aff;
+  width: 6.875rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border: none;
+  border: 1px solid white;
+}
+
+.sign-up a {
+  color: white;
+  font-family: Montserrat;
+}
+
+.login {
+  width: 6.875rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+}
+
+.login a {
+  color: #979797;
+  font-family: Montserrat;
+}
+
+h1 {
+  color: #2f281e;
+  font-size: 2.625rem;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: 3.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+span {
+  color: #544837;
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  line-height: 1.375rem;
+}
+
+.brand-header button {
+  width: 15.9375rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: 800;
+  background-color: #3a5aff;
+  border: none;
+  height: 3.25rem;
+  margin-top: 2.06rem;
+}
+
+h5 {
+  color: #000;
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.other-links {
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.illustrative-image {
+  width: 100%;
+  height: 100%;
+  margin-top: 3rem;
+}
+
+.illustrative-image img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+  nav{
+    margin-top: 0;
+  }
+  .open {
+    display: none;
+  }
+
+  .nav-links {
+    position: unset;
+    background-color: #fff;
+    top: 0;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: 5.625rem;
+    margin-bottom: 4rem;
+    line-height: 5rem;
+    margin-top: 4rem;
+  }
+
+  span {
+    font-size: 1.5rem;
+    line-height: 1.975rem;
+  }
+
+  .brand-header button{
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  h5{
+    margin-bottom: 1rem;
+  }
+
+  .illustrative-image{
+    height: 35rem;
+    width: 50rem;
+    margin-top: 0;
+  }
+
+  .illustrative-image img{
+    height: 100%;
+  }
+}
